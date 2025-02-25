@@ -3,7 +3,7 @@ This repo includes the official code and datasets for paper "Can Multimodal LLMs
 
 ## VisualTimeAnomaly
 <div align="center">
-<img src="teaser.png" style="width: 70%;height: 70%">
+<img src="teaser.png" style="width: 100%;height: 100%">
 </div>
 
 <p align="center"><b><font size="70">Left: workflow of VisualTimeAnomaly. Right: the performance comparison across various setting.</font></b></p>
@@ -16,7 +16,7 @@ The VisualTimeAnomaly code is comming soon (within 3 weeks)!
 - We construct a large-scale dataset including 12.4k time series images, and release the dateset and code to foster future research.
 
   ## Citation  
-If you find our work useful, please cite:
+If you find our work useful, please cite the below paper:
 ```
 
 ```
