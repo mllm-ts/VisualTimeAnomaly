@@ -23,5 +23,10 @@ The VisualTimeAnomaly code is comming soon (within 3 weeks)!
 ## 📝 Citation  
 If you find our work useful, please cite the below paper:
 ```
-
+@article{xu2025can,
+  title={Can Multimodal LLMs Perform Time Series Anomaly Detection?},
+  author={Xu, Xiongxiao and Wang, Haoran and Liang, Yueqing and Yu, Philip S and Zhao, Yue and Shu, Kai},
+  journal={arXiv preprint arXiv:2502.17812},
+  year={2025}
+}
 ```
