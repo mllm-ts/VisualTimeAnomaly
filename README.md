@@ -22,7 +22,7 @@ This repo includes the official code and datasets for paper ["Can Multimodal LLM
 
 ## 📝 Citation  
 If you find our work useful, please cite the below paper:
-```
+```bibtex
 @article{xu2025can,
   title={Can Multimodal LLMs Perform Time Series Anomaly Detection?},
   author={Xu, Xiongxiao and Wang, Haoran and Liang, Yueqing and Yu, Philip S and Zhao, Yue and Shu, Kai},
