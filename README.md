@@ -1,5 +1,5 @@
 # Can Multimodal LLMs Perform Time Series Anomaly Detection?
-This repo includes the official code and datasets for paper "Can Multimodal LLMs Perform Time Series Anomaly Detection?"
+This repo includes the official code and datasets for paper ["Can Multimodal LLMs Perform Time Series Anomaly Detection?"](https://arxiv.org/abs/2502.17812)
 
 ## 🕵️‍♂️ VisualTimeAnomaly
 <div align="center">
