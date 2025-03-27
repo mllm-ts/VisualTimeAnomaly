@@ -20,6 +20,39 @@ This repo includes the official code and datasets for paper ["Can Multimodal LLM
 - MLLMs are highly robust to irregular time series, even with 25% of the data missing;
 - Open-source MLLMs perform comparably to proprietary models in TSAD. While open-source MLLMs excel on univariate time series, proprietary MLLMs demonstrate superior effectiveness on multivariate time series.
 
+## ⚙️ Getting Started
+### Environment
+* python               3.10.14
+* torch                2.4.1
+* numpy                1.26.4
+* transformers         4.49.0.dev0
+* huggingface-hub      0.24.7
+* openai               1.44.0
+* google-generativeai  0.8.3
+
+### Run
+Enter `src` folder
+#### Generate Dataset
+`./generator.sh`
+
+or
+
+`python generator.py --category $category --scenario $scenario --anomaly_type $anomaly_type --num_ts $num_ts`.
+
+For example, generate 100 univaraite time series images for global anomalies:
+
+`python generator.py --category synthetic --scenario univariate --anomaly_type global --num_ts 100`
+#### Test Multimodal LLMs
+`./test.sh`
+
+or
+
+`python main.py --category $category --scenario $scenario --model_name $model_name --data $data`
+
+For example, run GPT-4o on univaraite time series scenario for global anomalies:
+
+`python main.py --category synthetic --scenario univariate --model_name gpt-4o --data global`
+
 ## 📝 Citation  
 If you find our work useful, please cite the below paper:
 ```bibtex
