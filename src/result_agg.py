@@ -246,10 +246,6 @@ def load_results(result_fn, data_name, raw=False, postprocess_func: callable = N
                     results.append(None)
                     continue
     
-    none_indices = [index+1 for index, value in enumerate(results) if value is None]
-    if len(none_indices) != 0:
-        print(f'{result_fn} has {len(none_indices)} invalid elements')
-
     return results
 
 def collect_results(directory, raw=False, ignore=[]):
