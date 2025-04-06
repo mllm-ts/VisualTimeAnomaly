@@ -28,28 +28,42 @@ This repo includes the official code and datasets for paper ["Can Multimodal LLM
 * openai               1.44.0
 * google-generativeai  0.8.3
 
-### Run
-Enter `src` folder
-#### Generate Dataset
+### Dataset
+Enter `src` folder.
+
+If you want to generate all datasets, execute the below script:
+
 `./generator.sh`
 
-or
+If you want to generate a specific dataset, execute the below script:
 
 `python generator.py --category $category --scenario $scenario --anomaly_type $anomaly_type --num_ts $num_ts`.
 
 For example, generate 100 univaraite time series images for global anomalies:
 
 `python generator.py --category synthetic --scenario univariate --anomaly_type global --num_ts 100`
-#### Test Multimodal LLMs
+
+### Run 
+Enter `src` folder.
+
+If you want to run MLLMs on all datasets, execute the below script:
+
 `./test.sh`
 
-or
+If you want to run a MLLM on a specific dataset, execute the below script:
 
 `python main.py --category $category --scenario $scenario --model_name $model_name --data $data`
 
-For example, run GPT-4o on univaraite time series scenario for global anomalies:
+For example, run GPT-4o on univaraite time series scenario with global anomalies:
 
 `python main.py --category synthetic --scenario univariate --model_name gpt-4o --data global`
+
+## Acknowledgement
+We sincerely appreciate the following github repo for the code base and datasets:
+
+https://github.com/Rose-STL-Lab/AnomLLM
+
+https://github.com/datamllab/tods/tree/benchmark
 
 ## 📝 Citation  
 If you find our work useful, please cite the below paper:
