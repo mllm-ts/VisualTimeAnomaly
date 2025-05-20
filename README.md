@@ -6,7 +6,7 @@ This repo includes the official code and datasets for paper ["Can Multimodal LLM
 <img src="teaser.png" style="width: 100%;height: 100%">
 </div>
 
-<p align="center"><b><font size="70">Left: the workflow of VisualTimeAnomaly. Right: the performance comparison across various setting.</font></b></p>
+<p align="center"><b><font size="30">Left: the workflow of VisualTimeAnomaly. Right: the performance comparison across various setting.</font></b></p>
 
 ## 🏆 Contributions
 - The first comprehensive benchmark for multimodal LLMs (MLLMs) in time series anomaly detection (TSAD), covering diverse scenarios (univariate, multivariate, irregular) and varying anomaly granularities (point-, range-, variate-wise).
